@@ -1,0 +1,18 @@
+Criando Kafka no Docker:
+
+Para criar o kafka, kafdrop no container(Docker) tem que rodar o arquivo com as configurações no yml.
+
+Nome do arquivo(kafka-docker-compose.yml)
+
+O arquivo kafka-docker-compose.yml -> está dentro desse caminho(C:\Users\Celo\intellij-workspace\producer\producer\docker) 
+
+Ao abrir o powershell ou algum outro programa de CLI(Comand Line Interface) no caminho onde está a pasta com o arquivo kafka-docker-compose.yml, rodar o comando abaixo:
+
+docker-compose -f kafka-docker-compose.yml up -d
+
+Exemplo executando dentro da pasta onde está o arquivo:
+
+C:\Users\Celo\intellij-workspace\producer\producer\docker> docker-compose -f kafka-docker-compose.yml up -d 
+
+
+Esse comando deve ser executado antes de rodar o projeto no IntelliJ ou Eclipse

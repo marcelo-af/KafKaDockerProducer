@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class MensagemService {
     //Variavel para ver o log
+    //Ver os logs que são gerados
     private static final Logger logger = LoggerFactory.getLogger(MensagemService.class);
 
     @Value("${topic.praticar-kafka}")
